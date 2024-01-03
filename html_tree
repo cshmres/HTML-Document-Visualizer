@@ -1,0 +1,17 @@
+digraph {
+	graph [dpi=300]
+	node [color=lightblue shape=box style=filled]
+	"[document]" [color=lightblue style=filled]
+	"[document]" -> html
+	html [color=lightblue style=filled]
+	html -> head
+	head [color=lightblue style=filled]
+	head -> meta
+	meta [color=lightblue style=filled]
+	head -> meta
+	meta [color=lightblue style=filled]
+	head -> title
+	title [color=lightblue style=filled]
+	html -> body
+	body [color=lightblue style=filled]
+}

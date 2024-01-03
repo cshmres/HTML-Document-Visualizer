@@ -1,0 +1,115 @@
+digraph {
+	html [color=lightblue shape=box style=filled]
+	head [color=lightblue shape=box style=filled]
+	html -> head
+	meta [color=lightblue shape=box style=filled]
+	head -> meta
+	meta [color=lightblue shape=box style=filled]
+	head -> meta
+	title [color=lightblue shape=box style=filled]
+	head -> title
+	meta [color=lightblue shape=box style=filled]
+	head -> meta
+	meta [color=lightblue shape=box style=filled]
+	head -> meta
+	link [color=lightblue shape=box style=filled]
+	head -> link
+	link [color=lightblue shape=box style=filled]
+	head -> link
+	link [color=lightblue shape=box style=filled]
+	head -> link
+	link [color=lightblue shape=box style=filled]
+	head -> link
+	link [color=lightblue shape=box style=filled]
+	head -> link
+	link [color=lightblue shape=box style=filled]
+	head -> link
+	link [color=lightblue shape=box style=filled]
+	head -> link
+	link [color=lightblue shape=box style=filled]
+	head -> link
+	link [color=lightblue shape=box style=filled]
+	head -> link
+	link [color=lightblue shape=box style=filled]
+	head -> link
+	link [color=lightblue shape=box style=filled]
+	head -> link
+	body [color=lightblue shape=box style=filled]
+	html -> body
+	section [color=lightblue shape=box style=filled]
+	body -> section
+	div [color=lightblue shape=box style=filled]
+	section -> div
+	div [color=lightblue shape=box style=filled]
+	div -> div
+	div [color=lightblue shape=box style=filled]
+	div -> div
+	h1 [color=lightblue shape=box style=filled]
+	div -> h1
+	div [color=lightblue shape=box style=filled]
+	div -> div
+	div [color=lightblue shape=box style=filled]
+	div -> div
+	div [color=lightblue shape=box style=filled]
+	div -> div
+	div [color=lightblue shape=box style=filled]
+	div -> div
+	i [color=lightblue shape=box style=filled]
+	div -> i
+	h4 [color=lightblue shape=box style=filled]
+	div -> h4
+	a [color=lightblue shape=box style=filled]
+	h4 -> a
+	p [color=lightblue shape=box style=filled]
+	div -> p
+	div [color=lightblue shape=box style=filled]
+	div -> div
+	div [color=lightblue shape=box style=filled]
+	div -> div
+	div [color=lightblue shape=box style=filled]
+	div -> div
+	i [color=lightblue shape=box style=filled]
+	div -> i
+	h4 [color=lightblue shape=box style=filled]
+	div -> h4
+	a [color=lightblue shape=box style=filled]
+	h4 -> a
+	p [color=lightblue shape=box style=filled]
+	div -> p
+	div [color=lightblue shape=box style=filled]
+	div -> div
+	div [color=lightblue shape=box style=filled]
+	div -> div
+	div [color=lightblue shape=box style=filled]
+	div -> div
+	i [color=lightblue shape=box style=filled]
+	div -> i
+	h4 [color=lightblue shape=box style=filled]
+	div -> h4
+	a [color=lightblue shape=box style=filled]
+	h4 -> a
+	p [color=lightblue shape=box style=filled]
+	div -> p
+	div [color=lightblue shape=box style=filled]
+	body -> div
+	a [color=lightblue shape=box style=filled]
+	body -> a
+	i [color=lightblue shape=box style=filled]
+	a -> i
+	script [color=lightblue shape=box style=filled]
+	body -> script
+	script [color=lightblue shape=box style=filled]
+	body -> script
+	script [color=lightblue shape=box style=filled]
+	body -> script
+	script [color=lightblue shape=box style=filled]
+	body -> script
+	script [color=lightblue shape=box style=filled]
+	body -> script
+	script [color=lightblue shape=box style=filled]
+	body -> script
+	script [color=lightblue shape=box style=filled]
+	body -> script
+	script [color=lightblue shape=box style=filled]
+	body -> script
+}
