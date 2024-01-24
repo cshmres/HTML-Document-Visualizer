@@ -63,7 +63,7 @@ def main():
     load_demo = st.button('Load Demo HTML')
 
     show_tag_frequency = st.sidebar.checkbox("Show Tag Frequency")
-    st.sidebar("Made By : Mainak")
+    st.sidebar.success("Made By : Mainak")
 
     if load_demo:
         uploaded_file = io.StringIO(demo_html)
