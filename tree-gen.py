@@ -9,7 +9,7 @@ def parse_html_content(content):
     return soup
 
 def visualize_tree(soup):
-    dot = Digraph(comment='HTML Tree Visualization')
+    dot = Digraph(comment='HTML DOM Visualization')
     add_node(dot, soup)
     st.graphviz_chart(dot.source)
 
