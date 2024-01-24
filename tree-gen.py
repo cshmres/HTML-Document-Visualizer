@@ -36,9 +36,7 @@ def count_lines(content):
     line_count = len(content.splitlines())
     return line_count
 
-def show_html_content(content):
-    st.header("Uploaded HTML Code")
-    st.code(content, language='html', height=800, width=900)
+
 
 def main():
     st.title('HTML Tree Visualization')
