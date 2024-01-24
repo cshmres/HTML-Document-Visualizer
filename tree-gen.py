@@ -79,8 +79,7 @@ def main():
             st.header('Tag Frequency')
             st.table(list(tag_freq.most_common()))
 
-        if show_html_checkbox:
-            show_html_content(content)
+       
 
    
 
