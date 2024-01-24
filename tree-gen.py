@@ -57,11 +57,13 @@ def main():
     </html>
     '''
 
+    
+
     uploaded_file = st.file_uploader('Upload HTML file', type=['html'])
     load_demo = st.button('Load Demo HTML')
 
     show_tag_frequency = st.sidebar.checkbox("Show Tag Frequency")
-    show_html_checkbox = st.sidebar.checkbox("Show Uploaded HTML Code")
+    st.sidebar("Made By : Mainak")
 
     if load_demo:
         uploaded_file = io.StringIO(demo_html)
@@ -80,11 +82,7 @@ def main():
         if show_html_checkbox:
             show_html_content(content)
 
-    # Counting lines and displaying in the sidebar
-    if uploaded_file:
-        line_count = count_lines(content)
-        st.sidebar.title('Word Count of Document')
-        st.sidebar.write(f"Number of lines: {line_count}")
+   
 
 if __name__ == "__main__":
     main()
